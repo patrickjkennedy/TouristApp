@@ -8,7 +8,7 @@
     tools:context="com.example.android.touristapp.MainActivity">
 
     <!-- Culture category -->
-    <FrameLayout
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/category_numbers">
@@ -17,10 +17,17 @@
             style="@style/CategoryStyle"
             android:background="?android:attr/selectableItemBackground"
             android:text="@string/culture" />
-    </FrameLayout>
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="14dp"
+            android:src="@drawable/culture"/>
+    </RelativeLayout>
 
     <!-- Restaurants category -->
-    <FrameLayout
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/category_family">
@@ -29,10 +36,17 @@
             style="@style/CategoryStyle"
             android:background="?android:attr/selectableItemBackground"
             android:text="@string/restaurants" />
-    </FrameLayout>
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="8dp"
+            android:src="@drawable/restaurants"/>
+    </RelativeLayout>
 
     <!-- Pubs category -->
-    <FrameLayout
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/category_colors">
@@ -41,10 +55,17 @@
             style="@style/CategoryStyle"
             android:background="?android:attr/selectableItemBackground"
             android:text="@string/pubs" />
-    </FrameLayout>
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="8dp"
+            android:src="@drawable/pubs"/>
+    </RelativeLayout>
 
     <!-- Outdoor Activities category -->
-    <FrameLayout
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/category_phrases">
@@ -53,5 +74,12 @@
             style="@style/CategoryStyle"
             android:background="?android:attr/selectableItemBackground"
             android:text="@string/outdoor_activities" />
-    </FrameLayout>
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="8dp"
+            android:src="@drawable/outdoor_activities"/>
+    </RelativeLayout>
 </LinearLayout>

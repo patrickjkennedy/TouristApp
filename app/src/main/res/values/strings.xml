@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">TouristApp</string>
+    <string name="culture">Culture</string>
+    <string name="outdoor_activities">Outdoor Activities</string>
+    <string name="pubs">Pubs</string>
+    <string name="restaurants">Restaurants</string>
 </resources>

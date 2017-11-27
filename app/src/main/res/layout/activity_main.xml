@@ -11,9 +11,9 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/category_numbers">
+        android:background="@color/category_culture">
         <TextView
-            android:id="@+id/numbers"
+            android:id="@+id/culture"
             style="@style/CategoryStyle"
             android:background="?android:attr/selectableItemBackground"
             android:text="@string/culture" />
@@ -30,9 +30,9 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/category_family">
+        android:background="@color/category_restaurants">
         <TextView
-            android:id="@+id/family"
+            android:id="@+id/restaurants"
             style="@style/CategoryStyle"
             android:background="?android:attr/selectableItemBackground"
             android:text="@string/restaurants" />
@@ -49,9 +49,9 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/category_colors">
+        android:background="@color/category_pubs">
         <TextView
-            android:id="@+id/colors"
+            android:id="@+id/pubs"
             style="@style/CategoryStyle"
             android:background="?android:attr/selectableItemBackground"
             android:text="@string/pubs" />
@@ -68,9 +68,9 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/category_phrases">
+        android:background="@color/category_outdoor">
         <TextView
-            android:id="@+id/phrases"
+            android:id="@+id/outdoor_activities"
             style="@style/CategoryStyle"
             android:background="?android:attr/selectableItemBackground"
             android:text="@string/outdoor_activities" />
@@ -79,7 +79,7 @@
             android:layout_height="48dp"
             android:layout_centerVertical="true"
             android:layout_alignParentRight="true"
-            android:layout_marginRight="8dp"
+            android:layout_marginRight="4dp"
             android:src="@drawable/outdoor_activities"/>
     </RelativeLayout>
 </LinearLayout>

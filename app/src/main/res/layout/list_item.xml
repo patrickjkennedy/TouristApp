@@ -14,7 +14,8 @@
             android:id="@+id/list_image_view"
             android:layout_width="@dimen/list_item_height"
             android:layout_height="@dimen/list_item_height"
-            android:background="#FFF7DA" />
+            android:scaleType="fitXY"
+            android:src="@drawable/silverrooms"/>
     </LinearLayout>
 
 

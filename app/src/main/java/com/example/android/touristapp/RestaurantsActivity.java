@@ -15,10 +15,14 @@ public class RestaurantsActivity extends AppCompatActivity {
 
         final ArrayList<Location> locations = new ArrayList<Location>();
 
-        locations.add(new Location("The Silver Rooms", "Newcastlewest",
-                "A lovely new restaurant.", R.drawable.silverrooms));
-        locations.add(new Location("The Blue Door", "Adare",
-                "A lovely blue restaurant.", R.drawable.bluedoor));
+        locations.add(new Location("The Silver Rooms", "Newcastlewest", R.drawable.silverrooms));
+        locations.add(new Location("The Blue Door", "Adare", R.drawable.bluedoor));
+        locations.add(new Location("The Mustard Seed", "Ballingarry", R.drawable.mustard));
+        locations.add(new Location("Nelly's Corner", "Limerick City", R.drawable.nellys_corner));
+        locations.add(new Location("Wild Geese Restaurant", "Adare", R.drawable.wild_geese));
+        locations.add(new Location("Freddy's Bistro", "Limerick City", R.drawable.freddys));
+        locations.add(new Location("Bobby Byrnes", "Limerick City", R.drawable.byrnes));
+
 
         LocationAdapter adapter = new LocationAdapter(this, locations);
 

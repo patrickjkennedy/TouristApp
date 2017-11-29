@@ -50,7 +50,7 @@
             android:layout_alignParentRight="true"
             android:layout_marginRight="16dp"
             android:layout_marginTop="12dp"
-            android:src="@drawable/ic_navigate_next"/>
+            android:src="@drawable/ic_location"/>
 
     </RelativeLayout>
 

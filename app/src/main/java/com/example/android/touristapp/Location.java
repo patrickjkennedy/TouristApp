@@ -7,21 +7,17 @@ package com.example.android.touristapp;
 public class Location {
     private String mLocationName;
     private String mLocationPlace;
-    private String mLocationDescription;
     private int mImageResourceId;
 
-    public Location(String locationName, String locationPlace, String locationDescription, int imageResourceId){
+    public Location(String locationName, String locationPlace, int imageResourceId){
         mLocationName = locationName;
         mLocationPlace = locationPlace;
-        mLocationDescription = locationDescription;
         mImageResourceId = imageResourceId;
     }
 
     public String getLocationName() { return mLocationName; }
 
     public String getLocationPlace() { return mLocationPlace; }
-
-    public String getLocationDescription() { return mLocationDescription; }
 
     public int getImageResourceId() {
         return mImageResourceId;
@@ -32,7 +28,6 @@ public class Location {
         return "Word{" +
                 "mLocationName='" + mLocationName + '\'' +
                 ", mLocationPlace='" + mLocationPlace + '\'' +
-                ", mLocationDescription=" + mLocationDescription +
                 ", mImageResourceId=" + mImageResourceId +
                 '}';
     }

@@ -1,17 +1,32 @@
 package com.example.android.touristapp;
 
-import android.support.v7.app.AppCompatActivity;
+
 import android.os.Bundle;
+import android.support.v4.app.Fragment;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
 import android.widget.ListView;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 
-public class CultureActivity extends AppCompatActivity {
+/**
+ * A simple {@link Fragment} subclass.
+ */
+public class CultureFragment extends Fragment {
+
+
+    public CultureFragment() {
+        // Required empty public constructor
+    }
+
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.location_list);
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+
+        View rootView = inflater.inflate(R.layout.location_list, container, false);
 
         final ArrayList<Location> locations = new ArrayList<Location>();
 
@@ -22,11 +37,13 @@ public class CultureActivity extends AppCompatActivity {
         locations.add(new Location("Belltable Arts Centre", "Limerick City", R.drawable.belltable));
         locations.add(new Location("Lime Tree Theatre", "Limerick City", R.drawable.limetree));
 
-        LocationAdapter adapter = new LocationAdapter(this, locations);
+        LocationAdapter adapter = new LocationAdapter(getActivity(), locations);
 
-        ListView listView = (ListView) findViewById(R.id.list);
+        ListView listView = (ListView) rootView.findViewById(R.id.list);
 
         listView.setAdapter(adapter);
 
+        return rootView;
     }
+
 }

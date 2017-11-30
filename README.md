@@ -7,6 +7,3 @@ location.
 ![Screenshot of tourist app.](/app/src/main/res/drawable/screenshot1.png?raw=true)
 
 ![Screenshot of Google Maps showing recommended restaurant.](/app/src/main/res/drawable/screenshot2.png?raw=true)
-
-
-Icons courtesy of Guilherme Simoes, Nasik Lababan, Daniel Luft and Mello from the Noun Project.

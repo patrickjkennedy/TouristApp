@@ -1,11 +1,14 @@
 package com.example.android.touristapp;
 
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.TextView;
 
@@ -31,23 +34,36 @@ public class PubsFragment extends Fragment {
         final ArrayList<Location> locations = new ArrayList<Location>();
 
         locations.add(new Location("Pharmacia", "Limerick City", R.drawable.pharmacia,
-                "geo:52.664406,-8.628325"));
-        locations.add(new Location("Dolans", "Limerick City", R.drawable.dolans,
-                "geo:52.658877,-8.638201"));
+                "geo:0,0?q=52.664406,-8.628325(Pharmacia)"));
+        locations.add(new Location("Dolan's", "Limerick City", R.drawable.dolans,
+                "geo:0,0?q=52.658877,-8.638201(Dolan%27s)"));
         locations.add(new Location("The Locke Bar", "Limerick City", R.drawable.locke,
-                "geo:52.667213,-8.623071"));
+                "geo:0,0?q=52.667213,-8.623071(The+Locke+Bar)"));
         locations.add(new Location("Foley's Bar & Restaurant", "Ardagh", R.drawable.foleys,
-                "geo:52.510196,-8.989407"));
+                "geo:0,0?q=52.510196,-8.989407(Foley%27s+Bar+%26+Restaurant)"));
         locations.add(new Location("Aunty Lena's", "Adare", R.drawable.aunty_lena,
-                "geo:52.564189,-8.790988"));
+                "geo:0,0?q=52.564189,-8.790988(Aunty+Lena%27s)"));
         locations.add(new Location("Bill Chawke's Bar", "Adare", R.drawable.chawkes,
-                "geo:52.563364,-8.792611"));
+                "geo:0,0?q=52.563364,-8.792611(Bill+Chawke%27s+Bar)"));
 
         LocationAdapter adapter = new LocationAdapter(getActivity(), locations);
 
         ListView listView = (ListView) rootView.findViewById(R.id.list);
 
         listView.setAdapter(adapter);
+
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+
+                Uri gmmIntentUri = Uri.parse(locations.get(i).getGeoString());
+                Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
+                mapIntent.setPackage("com.google.android.apps.maps");
+                if (mapIntent.resolveActivity(getActivity().getPackageManager()) != null) {
+                    startActivity(mapIntent);
+                }
+            }
+        });
 
         return rootView;
     }

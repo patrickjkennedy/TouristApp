@@ -30,12 +30,18 @@ public class PubsFragment extends Fragment {
 
         final ArrayList<Location> locations = new ArrayList<Location>();
 
-        locations.add(new Location("Pharmacia", "Limerick City", R.drawable.pharmacia));
-        locations.add(new Location("Dolans", "Limerick City", R.drawable.dolans));
-        locations.add(new Location("The Locke Bar", "Limerick City", R.drawable.locke));
-        locations.add(new Location("Foley's Bar & Restaurant", "Ardagh", R.drawable.foleys));
-        locations.add(new Location("Aunty Lena's", "Adare", R.drawable.aunty_lena));
-        locations.add(new Location("Bill Chawke's Bar", "Adare", R.drawable.chawkes));
+        locations.add(new Location("Pharmacia", "Limerick City", R.drawable.pharmacia,
+                "geo:52.664406,-8.628325"));
+        locations.add(new Location("Dolans", "Limerick City", R.drawable.dolans,
+                "geo:52.658877,-8.638201"));
+        locations.add(new Location("The Locke Bar", "Limerick City", R.drawable.locke,
+                "geo:52.667213,-8.623071"));
+        locations.add(new Location("Foley's Bar & Restaurant", "Ardagh", R.drawable.foleys,
+                "geo:52.510196,-8.989407"));
+        locations.add(new Location("Aunty Lena's", "Adare", R.drawable.aunty_lena,
+                "geo:52.564189,-8.790988"));
+        locations.add(new Location("Bill Chawke's Bar", "Adare", R.drawable.chawkes,
+                "geo:52.563364,-8.792611"));
 
         LocationAdapter adapter = new LocationAdapter(getActivity(), locations);
 

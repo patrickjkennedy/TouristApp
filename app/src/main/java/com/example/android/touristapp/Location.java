@@ -8,11 +8,13 @@ public class Location {
     private String mLocationName;
     private String mLocationPlace;
     private int mImageResourceId;
+    private String mGeoString;
 
-    public Location(String locationName, String locationPlace, int imageResourceId){
+    public Location(String locationName, String locationPlace, int imageResourceId, String geoString){
         mLocationName = locationName;
         mLocationPlace = locationPlace;
         mImageResourceId = imageResourceId;
+        mGeoString = geoString;
     }
 
     public String getLocationName() { return mLocationName; }
@@ -23,12 +25,15 @@ public class Location {
         return mImageResourceId;
     }
 
+    public String getGeoString() { return mGeoString; }
+
     @Override
     public String toString() {
         return "Word{" +
                 "mLocationName='" + mLocationName + '\'' +
                 ", mLocationPlace='" + mLocationPlace + '\'' +
-                ", mImageResourceId=" + mImageResourceId +
+                ", mImageResourceId=" + mImageResourceId + '\'' +
+                ", mGeoString=" + mGeoString +
                 '}';
     }
 }

@@ -33,20 +33,20 @@ public class RestaurantsFragment extends Fragment {
 
         final ArrayList<Location> locations = new ArrayList<Location>();
 
-        locations.add(new Location("The Silver Rooms", "Newcastlewest", R.drawable.silverrooms,
-                "geo:0,0?q=52.451867,-9.059750(The+Silver+Rooms)"));
-        locations.add(new Location("The Blue Door", "Adare", R.drawable.bluedoor,
-                "geo:0,0?q=52.564729,-8.787791(The+Blue+Door)"));
-        locations.add(new Location("The Mustard Seed", "Ballingarry", R.drawable.mustard,
-                "geo:0,0?q=52.474805,-8.865613(The+Mustard+Seed)"));
-        locations.add(new Location("Nelly's Corner", "Limerick City", R.drawable.nellys_corner,
-                "geo:0,0?q=52.668051,-8.622491(Nelly%27s+Corner)"));
-        locations.add(new Location("Wild Geese Restaurant", "Adare", R.drawable.wild_geese,
-                "geo:0,0?q=52.564770,-8.787222(Wild+Geese+Restaurant)"));
-        locations.add(new Location("Freddy's Bistro", "Limerick City", R.drawable.freddys,
-                "geo:0,0?q=52.661155,-8.630425(Freddy%27s+Bistro)"));
-        locations.add(new Location("Bobby Byrne's", "Limerick City", R.drawable.byrnes,
-                "geo:0,0?q=52.656686,-8.633441(Bobby+Byrne%27s)"));
+        locations.add(new Location(getString(R.string.locName19), getString(R.string.locPlace19), R.drawable.silverrooms,
+                getString(R.string.locGeo19)));
+        locations.add(new Location(getString(R.string.locName20), getString(R.string.locPlace20), R.drawable.bluedoor,
+                getString(R.string.locGeo20)));
+        locations.add(new Location(getString(R.string.locName21), getString(R.string.locPlace21), R.drawable.mustard,
+                getString(R.string.locGeo21)));
+        locations.add(new Location(getString(R.string.locName22), getString(R.string.locPlace22), R.drawable.nellys_corner,
+                getString(R.string.locGeo22)));
+        locations.add(new Location(getString(R.string.locName23), getString(R.string.locPlace23), R.drawable.wild_geese,
+                getString(R.string.locGeo23)));
+        locations.add(new Location(getString(R.string.locName24), getString(R.string.locPlace24), R.drawable.freddys,
+                getString(R.string.locGeo24)));
+        locations.add(new Location(getString(R.string.locName25), getString(R.string.locPlace25), R.drawable.byrnes,
+                getString(R.string.locGeo25)));
 
         LocationAdapter adapter = new LocationAdapter(getActivity(), locations);
 

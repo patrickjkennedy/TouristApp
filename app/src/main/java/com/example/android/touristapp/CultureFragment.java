@@ -33,18 +33,18 @@ public class CultureFragment extends Fragment {
 
         final ArrayList<Location> locations = new ArrayList<Location>();
 
-        locations.add(new Location("King John's Castle", "Limerick City", R.drawable.kingjohns,
-                "geo:0,0?q=52.669734,-8.625506(King+John%27s+Castle)"));
-        locations.add(new Location("The Hunt Museum", "Limerick City", R.drawable.hunt_museum,
-                "geo:0,0?q=52.6661,-8.6241(The+Hunt+Museum)"));
-        locations.add(new Location("Desmond Banqueting Hall", "Newcastlewest", R.drawable.desmond,
-                "geo:0,0?q=52.450550,-9.060665(Desmond+Banqueting+Hall)"));
-        locations.add(new Location("Adare Castle", "Adare", R.drawable.adare_castle,
-                "geo:0,0?q=52.569803,-8.782015(Adare+Castle)"));
-        locations.add(new Location("Belltable Arts Centre", "Limerick City", R.drawable.belltable,
-                "geo:0,0?q=52.659598,-8.630526(Belltable+Arts+Centre)"));
-        locations.add(new Location("Lime Tree Theatre", "Limerick City", R.drawable.limetree,
-                "geo:0,0?q=52.653813,-8.642919(Lime+Tree+Theatre)"));
+        locations.add(new Location(getString(R.string.locName1), getString(R.string.locPlace1), R.drawable.kingjohns,
+                getString(R.string.locGeo1)));
+        locations.add(new Location(getString(R.string.locName2), getString(R.string.locPlace2), R.drawable.hunt_museum,
+                getString(R.string.locGeo2)));
+        locations.add(new Location(getString(R.string.locName3), getString(R.string.locPlace3), R.drawable.desmond,
+                getString(R.string.locGeo3)));
+        locations.add(new Location(getString(R.string.locName4), getString(R.string.locPlace4), R.drawable.adare_castle,
+                getString(R.string.locGeo4)));
+        locations.add(new Location(getString(R.string.locName5), getString(R.string.locPlace5), R.drawable.belltable,
+                getString(R.string.locGeo5)));
+        locations.add(new Location(getString(R.string.locName6), getString(R.string.locPlace6), R.drawable.limetree,
+                getString(R.string.locGeo6)));
 
         LocationAdapter adapter = new LocationAdapter(getActivity(), locations);
 

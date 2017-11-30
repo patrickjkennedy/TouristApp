@@ -33,18 +33,18 @@ public class PubsFragment extends Fragment {
 
         final ArrayList<Location> locations = new ArrayList<Location>();
 
-        locations.add(new Location("Pharmacia", "Limerick City", R.drawable.pharmacia,
-                "geo:0,0?q=52.664406,-8.628325(Pharmacia)"));
-        locations.add(new Location("Dolan's", "Limerick City", R.drawable.dolans,
-                "geo:0,0?q=52.658877,-8.638201(Dolan%27s)"));
-        locations.add(new Location("The Locke Bar", "Limerick City", R.drawable.locke,
-                "geo:0,0?q=52.667213,-8.623071(The+Locke+Bar)"));
-        locations.add(new Location("Foley's Bar & Restaurant", "Ardagh", R.drawable.foleys,
-                "geo:0,0?q=52.510196,-8.989407(Foley%27s+Bar+%26+Restaurant)"));
-        locations.add(new Location("Aunty Lena's", "Adare", R.drawable.aunty_lena,
-                "geo:0,0?q=52.564189,-8.790988(Aunty+Lena%27s)"));
-        locations.add(new Location("Bill Chawke's Bar", "Adare", R.drawable.chawkes,
-                "geo:0,0?q=52.563364,-8.792611(Bill+Chawke%27s+Bar)"));
+        locations.add(new Location(getString(R.string.locName13), getString(R.string.locPlace13), R.drawable.pharmacia,
+                getString(R.string.locGeo13)));
+        locations.add(new Location(getString(R.string.locName14), getString(R.string.locPlace14), R.drawable.dolans,
+                getString(R.string.locGeo14)));
+        locations.add(new Location(getString(R.string.locName15), getString(R.string.locPlace15), R.drawable.locke,
+                getString(R.string.locGeo15)));
+        locations.add(new Location(getString(R.string.locName16), getString(R.string.locPlace16), R.drawable.foleys,
+                getString(R.string.locGeo16)));
+        locations.add(new Location(getString(R.string.locName17), getString(R.string.locPlace17), R.drawable.aunty_lena,
+                getString(R.string.locGeo17)));
+        locations.add(new Location(getString(R.string.locName18), getString(R.string.locPlace18), R.drawable.chawkes,
+                getString(R.string.locGeo18)));
 
         LocationAdapter adapter = new LocationAdapter(getActivity(), locations);
 

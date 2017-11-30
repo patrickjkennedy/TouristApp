@@ -7,4 +7,79 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="locName1">King John\'s Castle</string>
+    <string name="locPlace1">Limerick City</string>
+    <string name="locGeo1">geo:0,0?q=52.669734,-8.625506(King+John%27s+Castle)</string>
+    <string name="locName2">The Hunt Museum</string>
+    <string name="locPlace2">Limerick City</string>
+    <string name="locGeo2">geo:0,0?q=52.6661,-8.6241(The+Hunt+Museum)</string>
+    <string name="locName3">Desmond Banqueting Hall</string>
+    <string name="locPlace3">Newcastlewest</string>
+    <string name="locGeo3">geo:0,0?q=52.450550,-9.060665(Desmond+Banqueting+Hall)</string>
+    <string name="locName4">Adare Castle</string>
+    <string name="locPlace4">Adare</string>
+    <string name="locGeo4">geo:0,0?q=52.569803,-8.782015(Adare+Castle)</string>
+    <string name="locName5">Belltable Arts Centre</string>
+    <string name="locPlace5">Limerick City</string>
+    <string name="locGeo5">geo:0,0?q=52.659598,-8.630526(Belltable+Arts+Centre)</string>
+    <string name="locName6">Lime Tree Theatre</string>
+    <string name="locPlace6">Limerick City</string>
+    <string name="locGeo6">geo:0,0?q=52.653813,-8.642919(Lime+Tree+Theatre)</string>
+    <string name="locName7">The Demesne</string>
+    <string name="locPlace7">Newcastlewest</string>
+    <string name="locGeo7">geo:0,0?q=52.451383,-9.065494(The+Demesne)</string>
+    <string name="locName8">Curraghchase Forest Park</string>
+    <string name="locPlace8">Kilcornan</string>
+    <string name="locGeo8">geo:0,0?q=52.618118,-8.879971(Curraghchase+Forest+Park)</string>
+    <string name="locName9">Great Southern Trail</string>
+    <string name="locPlace9">Newcastlewest</string>
+    <string name="locGeo9">geo:0,0?q=52.455854,-9.059172(Great+Southern+Trail)</string>
+    <string name="locName10">Glenstal Woods Loop</string>
+    <string name="locPlace10">Murroe</string>
+    <string name="locGeo10">geo:0,0?q=52.661751,-8.361360(Glenstal+Woods+Loop)</string>
+    <string name="locName11">Get West Kayaking</string>
+    <string name="locPlace11">Limerick City</string>
+    <string name="locGeo11">geo:0,0?q=52.664677,-8.630343(Get+West+Kayaking)</string>
+    <string name="locName12">Clonshire Equestrian</string>
+    <string name="locPlace12">Adare</string>
+    <string name="locGeo12">geo:0,0?q=52.552206,-8.833351(Clonshire+Equestrian+Centre</string>
+    <string name="locName13">Pharmacia</string>
+    <string name="locPlace13">Limerick City</string>
+    <string name="locGeo13">geo:0,0?q=52.664406,-8.628325(Pharmacia)</string>
+    <string name="locName14">Dolan\'s</string>
+    <string name="locPlace14">Limerick City</string>
+    <string name="locGeo14">geo:0,0?q=52.658877,-8.638201(Dolan%27s)</string>
+    <string name="locName15">The Locke Bar</string>
+    <string name="locPlace15">Limerick City</string>
+    <string name="locGeo15">geo:0,0?q=52.667213,-8.623071(The+Locke+Bar)</string>
+    <string name="locName16"><![CDATA[Foley\'s Bar & Restaurant]]></string>
+    <string name="locPlace16">Ardagh</string>
+    <string name="locGeo16">geo:0,0?q=52.510196,-8.989407(Foley%27s+Bar+%26+Restaurant)</string>
+    <string name="locName17">Aunty Lena\'s</string>
+    <string name="locPlace17">Adare</string>
+    <string name="locGeo17">geo:0,0?q=52.564189,-8.790988(Aunty+Lena%27s)</string>
+    <string name="locName18">Bill Chawke\'s Bar</string>
+    <string name="locPlace18">Adare</string>
+    <string name="locGeo18">geo:0,0?q=52.563364,-8.792611(Bill+Chawke%27s+Bar)</string>
+    <string name="locName19">The Silver Rooms</string>
+    <string name="locPlace19">Newcastlewest</string>
+    <string name="locGeo19">geo:0,0?q=52.451867,-9.059750(The+Silver+Rooms)</string>
+    <string name="locName20">The Blue Door</string>
+    <string name="locPlace20">Adare</string>
+    <string name="locGeo20">geo:0,0?q=52.564729,-8.787791(The+Blue+Door)</string>
+    <string name="locName21">The Mustard Seed</string>
+    <string name="locPlace21">Ballingarry</string>
+    <string name="locGeo21">geo:0,0?q=52.474805,-8.865613(The+Mustard+Seed)</string>
+    <string name="locName22">Nelly\'s Corner</string>
+    <string name="locPlace22">Limerick City</string>
+    <string name="locGeo22">geo:0,0?q=52.668051,-8.622491(Nelly%27s+Corner)</string>
+    <string name="locName23">Wild Geese Restaurant</string>
+    <string name="locPlace23">Adare</string>
+    <string name="locGeo23">geo:0,0?q=52.564770,-8.787222(Wild+Geese+Restaurant)</string>
+    <string name="locName24">Freddy\'s Bistro</string>
+    <string name="locPlace24">Limerick City</string>
+    <string name="locGeo24">geo:0,0?q=52.661155,-8.630425(Freddy%27s+Bistro)</string>
+    <string name="locName25">Bobby Byrne\'s</string>
+    <string name="locPlace25">Limerick City</string>
+    <string name="locGeo25">geo:0,0?q=52.656686,-8.633441(Bobby+Byrne%27s)</string>
 </resources>

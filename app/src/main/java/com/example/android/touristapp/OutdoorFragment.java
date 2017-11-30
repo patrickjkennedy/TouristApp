@@ -33,18 +33,18 @@ public class OutdoorFragment extends Fragment {
 
         final ArrayList<Location> locations = new ArrayList<Location>();
 
-        locations.add(new Location("The Demesne", "Newcastlewest", R.drawable.demesne,
-                "geo:0,0?q=52.451383,-9.065494(The+Demesne)"));
-        locations.add(new Location("Curraghchase Forest Park", "Kilcornan", R.drawable.curraghchase,
-                "geo:0,0?q=52.618118,-8.879971(Curraghchase+Forest+Park)"));
-        locations.add(new Location("Great Southern Trail", "Newcastlewest Trailhead", R.drawable.gst,
-                "geo:0,0?q=52.455854,-9.059172(Great+Southern+Trail)"));
-        locations.add(new Location("Glenstal Woods Loop", "Murroe", R.drawable.glenstall,
-                "geo:0,0?q=52.661751,-8.361360(Glenstal+Woods+Loop)"));
-        locations.add(new Location("Get West Kayaking ", "Limerick City", R.drawable.getwest,
-                "geo:0,0?q=52.664677,-8.630343(Get+West+Kayaking)"));
-        locations.add(new Location("Clonshire Equestrian", "Adare", R.drawable.clonshire,
-                "geo:0,0?q=52.552206,-8.833351(Clonshire+Equestrian+Centre"));
+        locations.add(new Location(getString(R.string.locName7), getString(R.string.locPlace7), R.drawable.demesne,
+                getString(R.string.locGeo7)));
+        locations.add(new Location(getString(R.string.locName8), getString(R.string.locPlace8), R.drawable.curraghchase,
+                getString(R.string.locGeo8)));
+        locations.add(new Location(getString(R.string.locName9), getString(R.string.locPlace9), R.drawable.gst,
+                getString(R.string.locGeo9)));
+        locations.add(new Location(getString(R.string.locName10), getString(R.string.locPlace10), R.drawable.glenstall,
+                getString(R.string.locGeo10)));
+        locations.add(new Location(getString(R.string.locName11), getString(R.string.locPlace11), R.drawable.getwest,
+                getString(R.string.locGeo11)));
+        locations.add(new Location(getString(R.string.locName12), getString(R.string.locPlace12), R.drawable.clonshire,
+                getString(R.string.locGeo12)));
 
         LocationAdapter adapter = new LocationAdapter(getActivity(), locations);
 
